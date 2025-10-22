@@ -1,0 +1,22 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # Swift / iOS
+  #- package-ecosystem: "swift" # See documentation for possible values
+    #directory: "/iOS/Camerappka"
+    #schedule:
+      #interval: "weekly"
+    #commit-message:
+      #prefix: "fix(deps)"
+
+  # Android / Jetpack Compose
+  - package-ecosystem: "gradle"
+    directory: "/Android"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "fix(deps)"

@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D443C5A12EA949A40078E88B /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = D443C5A02EA949A40078E88B /* Atlantis */; };
+		D443C5A62EA94A650078E88B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D443C5A52EA94A650078E88B /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48B339A2EA9484D00EDD11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48B33842EA9484B00EDD11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48B338B2EA9484B00EDD11F;
+			remoteInfo = Camerappka;
+		};
+		D48B33A42EA9484D00EDD11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48B33842EA9484B00EDD11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48B338B2EA9484B00EDD11F;
+			remoteInfo = Camerappka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D48B338C2EA9484B00EDD11F /* Camerappka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camerappka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48B33992EA9484D00EDD11F /* CamerappkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamerappkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48B33A32EA9484D00EDD11F /* CamerappkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamerappkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D48B338E2EA9484B00EDD11F /* Camerappka */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Camerappka;
+			sourceTree = "<group>";
+		};
+		D48B339C2EA9484D00EDD11F /* CamerappkaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CamerappkaTests;
+			sourceTree = "<group>";
+		};
+		D48B33A62EA9484D00EDD11F /* CamerappkaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CamerappkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48B33892EA9484B00EDD11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				D443C5A62EA94A650078E88B /* FirebaseCore in Frameworks */,
+				D443C5A12EA949A40078E88B /* Atlantis in Frameworks */,
+			);
+		};
+		D48B33962EA9484D00EDD11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D48B33A02EA9484D00EDD11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D48B33832EA9484B00EDD11F = {
+			isa = PBXGroup;
+			children = (
+				D48B338E2EA9484B00EDD11F /* Camerappka */,
+				D48B339C2EA9484D00EDD11F /* CamerappkaTests */,
+				D48B33A62EA9484D00EDD11F /* CamerappkaUITests */,
+				D48B338D2EA9484B00EDD11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48B338D2EA9484B00EDD11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48B338C2EA9484B00EDD11F /* Camerappka.app */,
+				D48B33992EA9484D00EDD11F /* CamerappkaTests.xctest */,
+				D48B33A32EA9484D00EDD11F /* CamerappkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48B338B2EA9484B00EDD11F /* Camerappka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B33AD2EA9484D00EDD11F /* Build configuration list for PBXNativeTarget "Camerappka" */;
+			buildPhases = (
+				D48B33882EA9484B00EDD11F /* Sources */,
+				D48B33892EA9484B00EDD11F /* Frameworks */,
+				D48B338A2EA9484B00EDD11F /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D48B338E2EA9484B00EDD11F /* Camerappka */,
+			);
+			name = Camerappka;
+			packageProductDependencies = (
+				D443C5A02EA949A40078E88B /* Atlantis */,
+				D443C5A52EA94A650078E88B /* FirebaseCore */,
+			);
+			productName = Camerappka;
+			productReference = D48B338C2EA9484B00EDD11F /* Camerappka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48B33982EA9484D00EDD11F /* CamerappkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B33B02EA9484D00EDD11F /* Build configuration list for PBXNativeTarget "CamerappkaTests" */;
+			buildPhases = (
+				D48B33952EA9484D00EDD11F /* Sources */,
+				D48B33962EA9484D00EDD11F /* Frameworks */,
+				D48B33972EA9484D00EDD11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48B339B2EA9484D00EDD11F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D48B339C2EA9484D00EDD11F /* CamerappkaTests */,
+			);
+			name = CamerappkaTests;
+			productName = CamerappkaTests;
+			productReference = D48B33992EA9484D00EDD11F /* CamerappkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48B33A22EA9484D00EDD11F /* CamerappkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B33B32EA9484D00EDD11F /* Build configuration list for PBXNativeTarget "CamerappkaUITests" */;
+			buildPhases = (
+				D48B339F2EA9484D00EDD11F /* Sources */,
+				D48B33A02EA9484D00EDD11F /* Frameworks */,
+				D48B33A12EA9484D00EDD11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48B33A52EA9484D00EDD11F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D48B33A62EA9484D00EDD11F /* CamerappkaUITests */,
+			);
+			name = CamerappkaUITests;
+			productName = CamerappkaUITests;
+			productReference = D48B33A32EA9484D00EDD11F /* CamerappkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48B33842EA9484B00EDD11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					D48B338B2EA9484B00EDD11F = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					D48B33982EA9484D00EDD11F = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D48B338B2EA9484B00EDD11F;
+					};
+					D48B33A22EA9484D00EDD11F = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D48B338B2EA9484B00EDD11F;
+					};
+				};
+			};
+			buildConfigurationList = D48B33872EA9484B00EDD11F /* Build configuration list for PBXProject "Camerappka" */;
+			developmentRegion = pl;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pl,
+			);
+			mainGroup = D48B33832EA9484B00EDD11F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D443C59F2EA949A40078E88B /* XCRemoteSwiftPackageReference "atlantis" */,
+				D443C5A42EA94A650078E88B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 90;
+			productRefGroup = D48B338D2EA9484B00EDD11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48B338B2EA9484B00EDD11F /* Camerappka */,
+				D48B33982EA9484D00EDD11F /* CamerappkaTests */,
+				D48B33A22EA9484D00EDD11F /* CamerappkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48B338A2EA9484B00EDD11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D48B33972EA9484D00EDD11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D48B33A12EA9484D00EDD11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48B33882EA9484B00EDD11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D48B33952EA9484D00EDD11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D48B339F2EA9484D00EDD11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48B339B2EA9484D00EDD11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48B338B2EA9484B00EDD11F /* Camerappka */;
+			targetProxy = D48B339A2EA9484D00EDD11F /* PBXContainerItemProxy */;
+		};
+		D48B33A52EA9484D00EDD11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48B338B2EA9484B00EDD11F /* Camerappka */;
+			targetProxy = D48B33A42EA9484D00EDD11F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D48B33AB2EA9484D00EDD11F /* Debug configuration for PBXProject "Camerappka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D48B33AC2EA9484D00EDD11F /* Release configuration for PBXProject "Camerappka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D48B33AE2EA9484D00EDD11F /* Debug configuration for PBXNativeTarget "Camerappka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.turandotolive.Camerappka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D48B33AF2EA9484D00EDD11F /* Release configuration for PBXNativeTarget "Camerappka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.turandotolive.Camerappka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		D48B33B12EA9484D00EDD11F /* Debug configuration for PBXNativeTarget "CamerappkaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.baklavaolives.CamerappkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camerappka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Camerappka";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D48B33B22EA9484D00EDD11F /* Release configuration for PBXNativeTarget "CamerappkaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.baklavaolives.CamerappkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camerappka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Camerappka";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		D48B33B42EA9484D00EDD11F /* Debug configuration for PBXNativeTarget "CamerappkaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.baklavaolives.CamerappkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Camerappka;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D48B33B52EA9484D00EDD11F /* Release configuration for PBXNativeTarget "CamerappkaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S74F9Y9YXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.baklavaolives.CamerappkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Camerappka;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48B33872EA9484B00EDD11F /* Build configuration list for PBXProject "Camerappka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B33AB2EA9484D00EDD11F /* Debug configuration for PBXProject "Camerappka" */,
+				D48B33AC2EA9484D00EDD11F /* Release configuration for PBXProject "Camerappka" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D48B33AD2EA9484D00EDD11F /* Build configuration list for PBXNativeTarget "Camerappka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B33AE2EA9484D00EDD11F /* Debug configuration for PBXNativeTarget "Camerappka" */,
+				D48B33AF2EA9484D00EDD11F /* Release configuration for PBXNativeTarget "Camerappka" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D48B33B02EA9484D00EDD11F /* Build configuration list for PBXNativeTarget "CamerappkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B33B12EA9484D00EDD11F /* Debug configuration for PBXNativeTarget "CamerappkaTests" */,
+				D48B33B22EA9484D00EDD11F /* Release configuration for PBXNativeTarget "CamerappkaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D48B33B32EA9484D00EDD11F /* Build configuration list for PBXNativeTarget "CamerappkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B33B42EA9484D00EDD11F /* Debug configuration for PBXNativeTarget "CamerappkaUITests" */,
+				D48B33B52EA9484D00EDD11F /* Release configuration for PBXNativeTarget "CamerappkaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D443C59F2EA949A40078E88B /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.30.1;
+			};
+		};
+		D443C5A42EA94A650078E88B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D443C5A02EA949A40078E88B /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D443C59F2EA949A40078E88B /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
+		};
+		D443C5A52EA94A650078E88B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D443C5A42EA94A650078E88B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D48B33842EA9484B00EDD11F /* Project object */;
+}
